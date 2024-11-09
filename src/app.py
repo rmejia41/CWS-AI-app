@@ -174,7 +174,7 @@ ai_feedback_generator = AIFeedbackGenerator(
 
 # === Dash App Initialization ===
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUX])
-server=app.server
+server = app.server
 
 # === App Layout ===
 app.layout = dbc.Container([
@@ -260,4 +260,4 @@ def update_charts(selected_year, selected_state):
     return fig_map, table_data, feedback
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run_server(debug=False)
