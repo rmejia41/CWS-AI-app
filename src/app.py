@@ -259,5 +259,9 @@ def update_charts(selected_year, selected_state):
 
     return fig_map, table_data, feedback
 
+# if __name__ == '__main__':
+#     app.run_server(debug=False)
+
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    port = int(os.environ.get("PORT", 8050))  # Use the PORT environment variable or default to 8050
+    app.run_server(debug=False, host="0.0.0.0", port=port)
