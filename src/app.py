@@ -260,4 +260,4 @@ def update_charts(selected_year, selected_state):
     return fig_map, table_data, feedback
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run(debug=False)
