@@ -174,7 +174,7 @@ ai_feedback_generator = AIFeedbackGenerator(
 
 # === Dash App Initialization ===
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUX])
-server = app.server
+server=app.server
 
 # === App Layout ===
 app.layout = dbc.Container([
