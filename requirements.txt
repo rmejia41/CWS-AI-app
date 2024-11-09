@@ -1,6 +1,6 @@
-gunicorn
-pandas
-dash-tools
-ploty.express
+dash
 dash-bootstrap-components
-dotenv
+pandas
+plotly
+httpx
+python-dotenv
