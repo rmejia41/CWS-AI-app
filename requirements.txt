@@ -4,3 +4,4 @@ pandas
 plotly
 httpx
 python-dotenv
+gunicorn
