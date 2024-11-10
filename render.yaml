@@ -3,7 +3,7 @@ services:
     name: cws-ai-app
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn src.app:server"
+    startCommand: "gunicorn src.app:app"
 
 
 
